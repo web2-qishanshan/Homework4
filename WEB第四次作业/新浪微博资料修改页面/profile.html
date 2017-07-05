@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改资料</title>
+</head>
+
+<body>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><img src="images/logo.png" width="164" height="68" /></td>
+		<td width="200"><form id="form1" name="form1" method="post" action="">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><input name="textfield" type="text" id="textfield" size="20" /></td>
+					<td><input type="image" name="imageField" id="imageField" src="images/btn_search.gif" /></td>
+				</tr>
+			</table>
+		</form></td>
+	</tr>
+</table>
+<br />
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><img src="images/profile_header.jpg" width="760" height="123" /></td>
+	</tr>
+</table>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><br />
+			<form id="form2" name="form2" method="post" action="">
+				<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+					<tr>
+						<td width="100" align="right">*昵称：</td>
+						<td><input name="nickName" type="text" id="nickName" size="35" /></td>
+					</tr>
+					<tr>
+						<td align="right">真实姓名：</td>
+						<td><input name="trueName" type="text" id="trueName" size="35" /></td>
+					</tr>
+					<tr>
+						<td align="right">*所在地：</td>
+						<td><select name="province" id="province">
+							<option value="北京市">北京市</option>
+						</select>
+							<select name="city" id="city">
+								<option value="海淀区">海淀区</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td align="right">*性别：</td>
+						<td><input type="radio" name="sex" value="男" id="male" />男 <input type="radio" name="sex" value="女" id="female" />女 <input type="radio" name="sex" value="保密" id="secret" />保密</td>
+					</tr>
+					<tr>
+						<td align="right">生日：</td>
+						<td><select name="birtyYear" id="birtyYear">
+							<option value=""></option>
+							<option value="1990">1990</option>
+							<option value="1991">1991</option>
+						</select>年 <select name="birtyMonth" id="birtyMonth">
+							<option value=""></option>
+							<option value="12">12</option>
+							<option value="11">11</option>
+						</select>月 <select name="birtyDay" id="birtyDay">
+							<option value=""></option>
+							<option value="31">31</option>
+							<option value="30">30</option>
+						</select>日</td>
+					</tr>
+					<tr>
+						<td align="right">博客地址：</td>
+						<td><input name="blogUrl" type="text" id="blogUrl" size="35" /></td>
+					</tr>
+					<tr>
+						<td align="right">常用邮箱：</td>
+						<td><input name="email" type="text" id="email" size="35" disabled="disabled" value="student@bdqn.cn" /> 不可修改</td>
+					</tr>
+					<tr>
+						<td align="right">QQ：</td>
+						<td><input name="qq" type="text" id="qq" size="35" /></td>
+					</tr>
+					<tr>
+						<td align="right">MSN：</td>
+						<td><input name="msn" type="text" id="msn" size="35" /></td>
+					</tr>
+					<tr>
+						<td align="right">一句话介绍：</td>
+						<td><textarea cols="35" rows="4" name="introduction"></textarea></td>
+					</tr>
+					<tr>
+						<td align="right"></td>
+						<td>以下信息，可作为通过客服取回账号的依据</td>
+					</tr>
+					<tr>
+						<td align="right">证件类型：</td>
+						<td><select name="cardType" id="cardType">
+							<option value="身份证">身份证</option>
+							<option value="学生证">学生证</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td align="right">证件号码：</td>
+						<td><input name="idCard" type="text" id="idCard" size="35" /></td>
+					</tr>
+					<tr>
+						<td align="right"></td>
+						<td><input type="image" src="images/btn_save.gif" /></td>
+					</tr>
+				</table>
+			</form>
+		<br /></td>
+	</tr>
+</table>
+<table width="800" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr>
+		<td>帮助 意见反馈 微博认证及合作 开放平台 微博招聘 新浪网导航 不良信息举报</td>
+		<td align="right">新浪公司 版权所有</td>
+	</tr>
+	<tr>
+		<td>客服电话：400 690 0000 提示音后按1键（按当地市话标准计费）</td>
+		<td align="right">语言：<select name="language" id="language">
+				<option value="简体中文">简体中文</option>
+				<option value="繁体中文">繁体中文</option>
+			</select></td>
+	</tr>
+</table>
+</body>
+</html>
